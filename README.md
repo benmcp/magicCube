@@ -5,7 +5,7 @@ Classic Magic cube - built in html5/css3/javascript
 
 This is the classic magic cube.
 
-It runs straight in your browser i.e. I did not use .less for this - tear... ;(
+It runs straight in your browser 
 
 v 0.1 only runs in Chrome
 
@@ -22,22 +22,22 @@ Controls:
 x-axis rotation
 
 - q : left up
-- r : right up 
 - a : left down  
+- r : right up 
 - f: right down
 
 y-axis rotation
 
 - w : top cw  
-- x : bot cw 
 - e : top anti-cw  
+- x : bot cw 
 - c : bot anti-cw
 
 z-axis rotation
 
 - 2 : back cw  
-- s : front cw 
 - 3 : back anti-cw  
+- s : front cw 
 - d : front anti-cw
 
 
