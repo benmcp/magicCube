@@ -3,6 +3,8 @@ magicCube
 
 Classic Magic cube - built in html5/css3/javascript
 
+See it in action here - http://www.benmcphail.com/profile/fun/cube
+
 This is the classic magic cube.
 
 It runs straight in your browser 
