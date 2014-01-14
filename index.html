@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic Cube</title>
+ 
+ 	<link rel="stylesheet/less" href="css/style.less" type="text/less">
+ 	<link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,800' rel='stylesheet' type='text/css'>
+
+   	<script src="scripts/utils/jquery.js"></script>
+  	<script src="scripts/utils/less.js"></script>
+   	
+</head>
+<body >
+	<div class="container">
+		<div class="menu">
+			<div class="icon">
+				<div class="white"></div>
+				<div class="black"></div>
+			</div>
+			<div class="content hide">
+				<div class="title text">
+					magic cube - instructions
+				</div>
+				<div class="subHeading text">
+					rotate cube
+				</div>
+				<div class="subHeading text">
+					hold left mouse button and move
+				</div>				
+				<div class="subHeading text">
+					x-axis
+				</div>
+				<ul>
+					<li>
+						q : left up
+					</li>
+					<li>
+						r : right up
+					</li>
+					<li>
+						a : left down
+					</li>
+					<li>
+						f: right down
+					</li>	
+				</ul>
+
+				<div class="subHeading text">
+					y-axis
+				</div>
+				<ul>
+					<li>
+						w : top cw
+					</li>
+					<li>
+						x : bot cw
+					</li>
+					<li>
+						e : top anti-cw
+					</li>
+					<li>
+						c : bot anti-cw
+					</li>					
+				</ul>
+
+				<div class="subHeading text">
+					z-axis
+				</div>
+				<ul>
+					<li>
+						2 : back cw
+					</li>
+					<li>
+						s : front cw
+					</li>
+					<li>
+						3 : back anti-cw
+					</li>
+					<li>
+						d : front anti-cw
+					</li>					
+				</ul>	
+				<div class="subHeading text">
+					rotation speed
+				</div>
+				<div class="speed">
+					<div class="text box white" data-speed="1">
+						1s
+					</div><div class="text box" data-speed="0.2">
+						0.2s
+					</div><div class="text box" data-speed="0">
+						0s
+					</div>
+					
+				</div>
+				
+				<div class="footer text">
+					<a href="https://github.com/benmcphail" target="_blank">
+						fork me on github
+					</a>
+				</div>							
+			</div>
+		</div>
+		<div class="cube "></div>
+	</div>
+	<div class="browserIssue">
+		<div class="title">
+			oh no, an error has occurred!
+		</div>
+		<div class="subText">
+			unfortunately, due to the limitations/hurdles surrounding your current browser, this project is unable to function correctly
+		</div>
+		<div class="subText">
+			to work successfully, please load this page in chrome
+		</div>
+		<div class="subText">
+			you can download chrome through <a href="https://www.google.com/intl/en/chrome/browser/" target="_blank">this link</a>
+		</div>
+		<!--
+		<div class="continue">
+			continue
+		</div>
+	-->
+	</div>
+	<script src="scripts/cube.js"></script>
+</body>
+</html>
